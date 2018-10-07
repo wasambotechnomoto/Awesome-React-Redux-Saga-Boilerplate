@@ -34,9 +34,7 @@
 </div>
 <br />
 
-<div align="center">
-  <sub>Created by <a href="https://www.linkedin.com/in/prabaprakash">Praba Prakash</a></sub>
-</div>
+
 
 # Pre-requisites:
   *  Node v8.9.4
