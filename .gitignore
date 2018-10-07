@@ -3,4 +3,3 @@ src/dist/public
 src/server/logs
 logs
 .idea
-package-lock.json
