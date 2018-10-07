@@ -4,7 +4,7 @@ const app = express();
 const path = require('path');
 const fs = require('fs');
 
-app.use(express.static('src/dist/'));
+app.use(express.static('dist'));
 app.get('/', function(request, response) {
   response.redirect('index.html');
 });

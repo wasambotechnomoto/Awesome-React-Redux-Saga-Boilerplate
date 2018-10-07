@@ -1,6 +1,10 @@
-FROM node:alpine
+FROM node:10
 COPY . /app
 WORKDIR /app
+
+RUN npm -v
+
+RUN node -v
 
 RUN mkdir -p logs && \
     npm install && \

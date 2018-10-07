@@ -67,7 +67,7 @@ $ npm run start
 
 
 > reactredux@1.0.0 build:dll:dev C:\Users\paranganat\Desktop\ReactRedux
-> webpack -d --config webpack.library.config.js
+> webpack -d --config webpack.config.js
 
 Hash: 8f76e759f069692e3394
 Version: webpack 4.17.0
@@ -99,10 +99,10 @@ Entrypoint js = bundle.js bundle.css
 [./node_modules/redux/es/redux.js] delegated ./node_modules/redux/es/redux.js from dll-reference lib 42 bytes {js} [built]
 [./node_modules/webpack/buildin/global.js] delegated ./node_modules/webpack/buildin/global.js from dll-reference lib 42 bytes {js} [built]
 [./src/client/actions/index.js] 1.12 KiB {js} [built]
-[0] multi babel-polyfill ./src/client/index.js 40 bytes {js} [built]
+[0] multi babel-polyfill ./src/index.js 40 bytes {js} [built]
 [./src/client/constants/index.js] 447 bytes {js} [built]
 [./src/client/containers/App.js] 843 bytes {js} [built]
-[./src/client/index.js] 1.79 KiB {js} [built]
+[./src/index.js] 1.79 KiB {js} [built]
 [./src/client/reducers/combined.js] 415 bytes {js} [built]
 [./src/client/sagas/calc.js] 6.14 KiB {js} [built]
 [./src/client/sagas/combined.js] 1.16 KiB {js} [built]
@@ -135,7 +135,7 @@ $ npm run prod && npm run serve
 
 
 > reactredux@1.0.0 build:dll:prod C:\Users\paranganat\Desktop\ReactRedux
-> webpack -p --config webpack.library.config.js
+> webpack -p --config webpack.config.js
 
 Hash: db478f551a9bcb7e7b77
 Version: webpack 4.17.0
@@ -165,8 +165,8 @@ Entrypoint js = bundle.js bundle.css
 [128] delegated ./node_modules/react/index.js from dll-reference lib 42 bytes {0} [built]
 [129] delegated ./node_modules/react-redux/es/index.js from dll-reference lib 42 bytes {0} [built]
 [130] delegated ./node_modules/redux-saga/es/effects.js from dll-reference lib 42 bytes {0} [built]
-[131] multi babel-polyfill ./src/client/index.js 40 bytes {0} [built]
-[334] ./src/client/index.js 1.79 KiB {0} [built]
+[131] multi babel-polyfill ./src/index.js 40 bytes {0} [built]
+[334] ./src/index.js 1.79 KiB {0} [built]
 [335] delegated ./node_modules/react-dom/index.js from dll-reference lib 42 bytes {0} [built]
 [336] delegated ./node_modules/redux-saga/es/index.js from dll-reference lib 42 bytes {0} [built]
 [337] ./src/client/reducers/combined.js 415 bytes {0} [built]
