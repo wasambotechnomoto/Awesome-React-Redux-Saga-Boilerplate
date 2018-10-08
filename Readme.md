@@ -1,3 +1,17 @@
+# Excalibur
+Excalibur - GDE Project, PORTAL - OVERVIEW
+- Vision is to develop a web portal for corporates to sell any type of products and a mobile app as well for customers to buy any type of products
+- Customer can start using the portal from the process of browsing/selection of a product to buy/finance till the delivery at their doorstep
+- The portal should handle financial or non-financial product , a digital or physical product and supports direct buying as well as financing capability all done digitally in automated pre-defined seamless journey
+- It Consists of following components on the top level
+1. Products
+2. Customers
+3. Movements
+4. Subscriptions
+- On a very high level, Products and Customers are linked via subscriptions and movements are used to cater to their daily transactions
+
+<br/>
+
 <img src="https://raw.githubusercontent.com/prabaprakash/React-Redux-Saga-Boilerplate/master/doc/app.gif" alt="react redux boilerplate banner" align="center" />
 
 <br />
@@ -37,7 +51,7 @@
 
 
 # Pre-requisites:
-  *  Node v8.9.4
+  *  Node v10.11.0
   *  PM2        : `npm install -g pm2`
 
 # Start Application:
@@ -45,6 +59,11 @@
   # Dev Mode
   * `npm run start` start the application in watch mode for server side code and client side code with webpack
   * Open http://localhost:3200/ to see the application in normal mode
+  * Mostly when you want to build code so that folder mobile_app can use it
+  # Dev Docker Mode
+  * `docker-compose up` start the application in watch mode for server side code and client side code with webpack
+  * Open http://localhost:80/ to see the application in normal mode
+  * Deploy the web app in your local machine
 ```shell
 $ npm run start
 
