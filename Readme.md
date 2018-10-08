@@ -397,12 +397,6 @@ INFO Selenium process finished.
 - [webpack](https://ghub.io/webpack): Packs CommonJs/AMD modules for the browser. Allows to split your codebase into multiple bundles, which can be loaded on demand. Support loaders to preprocess files, i.e. json, jsx, es7, css, less, ... and your custom stuff.
 - [webpack-cli](https://ghub.io/webpack-cli): CLI for webpack &amp; friends
 
-### Links
-- [Donate](https://www.patreon.com/prabaprakash)
 
 ### License
-Copyright (c) 2018 Praba Prakash, contributors.
-
-Released under the [MIT license](https://github.com/prabaprakash/React-Redux-Saga-Boilerplate/blob/master/LICENSE).
-
-Screenshots are [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) (Attribution-ShareAlike)
+Copyright (c) 2018 TechnoMoto.
